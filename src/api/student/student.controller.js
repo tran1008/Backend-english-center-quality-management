@@ -2,7 +2,7 @@ import StudentSchema from "../model/student.schema.js";
 import Response from "../helpers/response.js";
 import ClassSchema from "../model/class.schema.js";
 
-export default class StudentController {
+export default class StudentController{
   //---------getAllStudent--------------
 
   static async getAllStudent(req, res, next) {
@@ -111,7 +111,7 @@ export default class StudentController {
     }
   }
 
-  //-------------deleteStudent-------------
+  //-------------deleteStudent----------------
 
   static async deleteStudent(req, res) {
     try {

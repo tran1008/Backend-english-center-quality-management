@@ -7,7 +7,6 @@ mongoose.connect(connectionString,
         dbName: process.env.MONGO_DBNAME
     }
 )
-// for of là lặp qua từng phần tử của mảng
 // CONNECT MONGODB
 // for in là lặp qua từng key của một object
 // for of là lặp qua từng phần tử của một mảng
@@ -15,3 +14,5 @@ mongoose.connect(connectionString,
 const db = mongoose.connection;
 
 export default db
+
+

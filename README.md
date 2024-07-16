@@ -1,4 +1,4 @@
-# IE213-English-Center-Quality-Management
+# Backend-English-Center-Quality-Management
 
 # .env file
     MONGO_USERNAME=
